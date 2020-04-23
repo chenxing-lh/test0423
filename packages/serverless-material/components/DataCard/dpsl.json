@@ -1,0 +1,20 @@
+{
+	"type": 3,
+	"draggable": false,
+	"props": {
+		"item": {
+			"label": "数据",
+			"type": 5,
+			"default": {
+				"height": "170px",
+				"width": "270px",
+				"bgColor": "#e2357c",
+				"icon": "iconup",
+				"value": "$ 120,690",
+				"label": "总收入",
+				"updateTime": "13:00"
+			}
+		}
+	},
+	"event": {}
+}

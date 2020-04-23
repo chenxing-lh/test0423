@@ -1,0 +1,16 @@
+{
+	"name": "name",
+	"version": "1.0.0",
+	"title": "title",
+	"description": "描述",
+	"type": "component",
+	"platform": [
+		"PC"
+	],
+	"homePage": "",
+	"category": "分类2",
+	"screenshot": "",
+	"path": "components/Wuliaoyuan1",
+	"origin": "http://172.20.20.41:8000/deepexi/serverless-material.git",
+	"hash": "35ed82e616a1991df1bdda9cf01759fd"
+}

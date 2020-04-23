@@ -1,0 +1,16 @@
+{
+    "name": "data-card",
+    "version": "1.0.0",
+    "title": "数据卡片",
+    "description": "数据展示卡片",
+    "type": "component",
+    "platform": [
+        "PC"
+    ],
+    "homePage": "/materials/24/distffeddbdbae0b2c9b657df39b0c04c2c5/index.html",
+    "category": "数据展示",
+    "screenshot": "/screenshots/ffeddbdbae0b2c9b657df39b0c04c2c5.png",
+    "path": "components/DataCard",
+    "origin": "http://gitlab.deepexi.top/deepexi/deepexi-serverless/serverless-material.git",
+    "hash": "ffeddbdbae0b2c9b657df39b0c04c2c5"
+}

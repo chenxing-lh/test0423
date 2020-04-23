@@ -1,0 +1,16 @@
+{
+	"name": "name",
+	"version": "1.0.0",
+	"title": "title",
+	"description": "miaoshu",
+	"type": "page",
+	"platform": [
+		"PC"
+	],
+	"homePage": "",
+	"category": "图标",
+	"screenshot": "",
+	"path": "pages/Name",
+	"origin": "https://github.com/chenxing-lh/test0423.git",
+	"hash": "75d68df64b36dd5f100a93a3590264a5"
+}

@@ -1,0 +1,16 @@
+{
+	"name": "test",
+	"version": "1.0.0",
+	"title": "123",
+	"description": "12345678765432",
+	"type": "template",
+	"platform": [
+		"PC"
+	],
+	"homePage": "",
+	"category": "tt",
+	"screenshot": "",
+	"path": "templates/Components",
+	"origin": "http://gitlab.deepexi.top/deepexi/deepexi-serverless/serverless-material.git",
+	"hash": "d57affc7127cb80d5efafa361575d9e2"
+}

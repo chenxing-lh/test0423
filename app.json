@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"data-card": "1.0.0"
+	},
+	"alias": {
+		"serverless-material-data-card": "packages/serverless-material/components/DataCard/src/index.vue"
+	}
+}
