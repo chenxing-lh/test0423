@@ -29,7 +29,24 @@
 				"hash": "dac0a1c7addfbc3e94ffd2dfc9b1bb14"
 			}
 		],
-		"blocks": [],
+		"blocks": [
+			{
+				"name": "basic-not-found",
+				"version": "1.0.0",
+				"title": "404异常",
+				"description": "404区块",
+				"type": "block",
+				"platform": [
+					"PC"
+				],
+				"homePage": "/materials/24/dist058d198ad18c3bd6b52dc1e8e145df9f/index.html",
+				"category": "异常",
+				"screenshot": "/screenshots/24/058d198ad18c3bd6b52dc1e8e145df9f/1567587157352.png",
+				"path": "blocks/BasicNotFound",
+				"origin": "http://172.20.20.41:8000/deepexi/serverless-material.git",
+				"hash": "7670229f7c27922b5d78a93089798092"
+			}
+		],
 		"pages": [
 			{
 				"name": "name",

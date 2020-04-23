@@ -1,8 +1,10 @@
 {
 	"dependencies": {
+		"basic-not-found": "1.0.0",
 		"data-card": "1.0.0"
 	},
 	"alias": {
-		"serverless-material-data-card": "packages/serverless-material/components/DataCard/src/index.vue"
+		"serverless-material-data-card": "packages/serverless-material/components/DataCard/src/index.vue",
+		"serverless-material-basic-not-found": "packages/serverless-material/blocks/BasicNotFound/src/index.vue"
 	}
 }
