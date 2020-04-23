@@ -1,3 +1,9 @@
+import WwwwwwConfig from "../components/Wwwwww/dpsl.json";
+
+const Wwwwww = () => import("../components/Wwwwww/src/index.vue");
+
+Wwwwww.$dpslConfig = WwwwwwConfig;
+
 /**
  * 这里我们需要引入物料的入口vue文件和可视化配置文件
  * example:
@@ -14,34 +20,29 @@
 // import HelloWorldConfig from '../components/HelloWorld/dpsl.json'
 // const HelloWorld = () => import('../components/HelloWorld/src/index.vue')
 // HelloWorld.$dpslConfig = HelloWorldConfig
-const components = [
-  // 将引入的Component放入这里即可
+const components = [Wwwwww]; // 将引入的Component放入这里即可
 //   HelloWorld
-]
-
 // 添加install方法
 components.forEach(component => {
   component.install = Vue => {
-    Vue.component(component.name, component)
-  }
-})
+    Vue.component(component.name, component);
+  };
+});
 
 const install = Vue => {
   components.forEach(component => {
-    Vue.use(component)
-  })
+    Vue.use(component);
+  });
+};
+
+if (typeof window !== "undefined" && window.Vue) {
+  install(window.Vue);
 }
 
-if (typeof window !== 'undefined' && window.Vue) {
-  install(window.Vue)
-}
 export default {
   install,
-  componentProfileList: components.map(item => item.name),
-  // 需要导出物料
-//   HelloWorld
-}
-export {
-  // 导出物料
-//   HelloWorld
-}
+  componentProfileList: components.map(item => item.name), // 需要导出物料
+  //   HelloWorld
+  Wwwwww
+};
+export { Wwwwww };

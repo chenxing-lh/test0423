@@ -1,20 +1,54 @@
 {
-    "name": "wuliaoyuan1",
-    "title": "wuliaoyuan1",
-    "description": "",
-    "repository": {
-        "url": "https://github.com/chenxing-lh/test0423.git",
-        "private": 1,
-        "auth": {
-            "username": "381606250@qq.com",
-            "password": "vhrLwbHql7B6uzxBgMTN6CcOvJkx7NhyRhz6bGzkc/DNlbceilJZww2562A1S1WiRxQ320xepAmCa2I7pL6/Lw=="
-        }
-    },
-    "map": {
-        "components": [],
-        "blocks": [],
-        "pages": [],
-        "templates": []
-    },
-    "materialId": 205
+	"name": "wuliaoyuan1",
+	"title": "wuliaoyuan1",
+	"description": "",
+	"repository": {
+		"url": "https://github.com/chenxing-lh/test0423.git",
+		"private": 1,
+		"auth": {
+			"username": "381606250@qq.com",
+			"password": "vhrLwbHql7B6uzxBgMTN6CcOvJkx7NhyRhz6bGzkc/DNlbceilJZww2562A1S1WiRxQ320xepAmCa2I7pL6/Lw=="
+		}
+	},
+	"map": {
+		"components": [
+			{
+				"name": "wwwwww",
+				"version": "1.0.0",
+				"title": "组件啊",
+				"description": "水水水水",
+				"type": "component",
+				"platform": [
+					"PC"
+				],
+				"homePage": "",
+				"category": "布局",
+				"screenshot": "/screenshots/dac0a1c7addfbc3e94ffd2dfc9b1bb14.png",
+				"path": "components/Wwwwww",
+				"origin": "https://github.com/chenxing-lh/test0423.git",
+				"hash": "dac0a1c7addfbc3e94ffd2dfc9b1bb14"
+			}
+		],
+		"blocks": [],
+		"pages": [
+			{
+				"name": "name",
+				"version": "1.0.0",
+				"title": "title",
+				"description": "miaoshu",
+				"type": "page",
+				"platform": [
+					"PC"
+				],
+				"homePage": "/materials/205/dist75d68df64b36dd5f100a93a3590264a5/index.html",
+				"category": "图标",
+				"screenshot": "/screenshots/75d68df64b36dd5f100a93a3590264a5.png",
+				"path": "pages/Name",
+				"origin": "https://github.com/chenxing-lh/test0423.git",
+				"hash": "75d68df64b36dd5f100a93a3590264a5"
+			}
+		],
+		"templates": []
+	},
+	"materialId": 205
 }

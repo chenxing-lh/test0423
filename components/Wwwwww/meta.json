@@ -1,0 +1,16 @@
+{
+    "name": "wwwwww",
+    "version": "1.0.0",
+    "title": "组件啊",
+    "description": "水水水水",
+    "type": "component",
+    "platform": [
+        "PC"
+    ],
+    "homePage": "",
+    "category": "布局",
+    "screenshot": "/screenshots/dac0a1c7addfbc3e94ffd2dfc9b1bb14.png",
+    "path": "components/Wwwwww",
+    "origin": "https://github.com/chenxing-lh/test0423.git",
+    "hash": "dac0a1c7addfbc3e94ffd2dfc9b1bb14"
+}
