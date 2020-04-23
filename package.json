@@ -1,0 +1,17 @@
+{
+    "name": "wuliaoyuan1",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chenxing-lh/test0423.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "main": "index.js",
+    "scripts": {
+        "check": "dpsl-cli check",
+        "lib": "vue build --target lib --name wuliaoyuan1 --dest dist packages/index.js"
+    },
+    "devDependencies": {}
+}
